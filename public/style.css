@@ -1,0 +1,101 @@
+:root {
+  --garnet: #73000a;
+  --dark-garnet: #570008;
+  --black: #000000;
+  --gray: #ececec;
+  --white: #ffffff;
+  --beige: #fff2e3;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: var(--gray);
+  color: var(--black);
+}
+
+main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 35px;
+  text-align: center;
+  background: var(--white);
+  border-top: 12px solid var(--garnet);
+  box-shadow: 0 3px 12px #00000026;
+}
+
+h1 {
+  margin: 0 0 8px;
+  color: var(--garnet);
+  font-size: 2.5rem;
+}
+
+.subtitle {
+  margin-bottom: 30px;
+  color: #363636;
+}
+
+.forms {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.preference-card {
+  width: 300px;
+  padding: 20px;
+  text-align: left;
+  background: var(--beige);
+  border-top: 6px solid var(--garnet);
+  box-shadow: 0 2px 7px #00000026;
+}
+
+.preference-card h2 {
+  margin-top: 0;
+  color: var(--garnet);
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+select {
+  width: 100%;
+  padding: 9px;
+  margin-top: 5px;
+  box-sizing: border-box;
+  border: 1px solid #5c5c5c;
+  background: var(--white);
+}
+
+button {
+  margin-top: 28px;
+  padding: 13px 26px;
+  border: 2px solid var(--black);
+  background: var(--garnet);
+  color: var(--white);
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: var(--dark-garnet);
+}
+
+.result {
+  margin: 28px auto 0;
+  max-width: 600px;
+  padding: 20px;
+  background: var(--black);
+  color: var(--white);
+  border-left: 8px solid var(--garnet);
+}
+
+.result h2 {
+  margin-top: 0;
+  color: var(--white);
+}
